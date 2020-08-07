@@ -6,7 +6,7 @@ email:
 description: ""
 keyword: "Vim/Neovim,Fortran"
 url: "http://Euler-37.github.io"          # your host, for absolute URL
-baseurl: "/_posts"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Euler-37/Euler-37.github.io.git" # you code repository
 
 # Sidebar settings
