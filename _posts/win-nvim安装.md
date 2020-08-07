@@ -7,7 +7,7 @@ author:     Euler-37
 header-img: 
 catalog: true
 tags:
-    - Neovim
+    - 
 ---
 
 # Neovim在Windows的安装
