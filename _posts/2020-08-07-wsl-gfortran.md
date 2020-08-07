@@ -7,8 +7,8 @@ author:     Euler-37
 header-img: 
 catalog: true
 tags:
-    - Xcode
-    - iOS
+    - Fortran
+    - WSL
 ---
 # win10安装Linux子系统
 * 具体教程网上查找
