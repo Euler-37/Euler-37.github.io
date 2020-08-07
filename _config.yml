@@ -40,6 +40,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+theme: jekyll-theme-modernist
 
 
 
@@ -95,4 +96,4 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-theme: jekyll-theme-modernist
+
