@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Xcode命令行工具管理
-subtitle:   如何切换Xcode命令行工具
-date:       2018-05-05
-author:     BY
-header-img: img/post-bg-kuaidi.jpg
+title:      WSL-Gfortran
+subtitle:   WSL配置Fortran所需的环境
+date:       2020-08-07
+author:     Euler-37
+header-img: 
 catalog: true
 tags:
     - Xcode
