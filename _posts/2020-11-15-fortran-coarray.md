@@ -10,7 +10,7 @@ tags:
     - Fortran
 ---
 # Coarray
-##简介
+## 简介
 Fortran 在2018标准中引入了Coarray,用来抽象mpi,目前的实现有 opencoarrays,ifort-coarray.
 
 ## 基本语法
@@ -52,18 +52,23 @@ coarray支持高维，用于描述image之间的关系
 但是其中必须有一个维度为`[*]`,不同image分配的数组维度必须相同
 
 * 同步
+
 `sync all`用于同步不同的image,在需要同步时使用
 ## 内置函数
 * `co_max(a,result_image)`
-找到最大的，结果返回到`result_image`,a不一定是定义为coarray,只要在这个环境中的变量即可
+
+找到所有image中最大的，结果返回到`result_image`,a不一定是定义为coarray,只要在这个环境中的变量即可
 
 * `co_min(a,result_image)`
+
 同上
 
 * `co_sum(a,result_image)`
+
 求和
 
 * `co_broadcast(a,source_image)`
+
 将`source_image`中的a值广播给每一个image
 ``` fortran
     program main
@@ -77,6 +82,7 @@ coarray支持高维，用于描述image之间的关系
     end program
 ```
 * `co_reduce(a,operation,result_image)`
+
 对a执行`operation`的迭代操作，结果返回`result_image`
 ``` fortran
 
